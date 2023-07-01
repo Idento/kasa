@@ -38,4 +38,7 @@
         height: 100%;
         z-index: 3;
     }
+    @media (max-width: $tablet-media){
+        width: 100%;
+    }
 }
