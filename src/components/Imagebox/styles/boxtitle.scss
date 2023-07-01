@@ -1,0 +1,25 @@
+@import 'src/styles/index.scss';
+
+.box__title{
+    margin: auto;
+    width: 80%;
+    height: 230px;
+    border-radius: 20px;
+    background-image: url('../../assets/titlebackground.png');
+    background-size: 100% auto;
+    background-position: 50% 52%;
+    background-blend-mode: multiply;
+    background-color: rgb(170, 169, 169);
+    display: flex;
+    .Title__homepage {
+        margin: auto;
+        font-size: 48px;
+        color:white;
+        font-family: $font;
+    }
+}
+
+.box__about{
+    @extend .box__title;
+    background-image: url('../../assets/about.png');
+}

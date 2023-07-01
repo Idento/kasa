@@ -1,0 +1,27 @@
+@import '../../../styles/index.scss';
+
+
+.failed_container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 80%;
+    color: $primary-color;
+    h1 {
+        font-size: 280px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    .back {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
