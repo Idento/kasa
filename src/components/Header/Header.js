@@ -11,9 +11,7 @@ function Header({navlist}){
             <img src={logo} alt='logo de kasa' />
             <nav>
                 {Object.entries(navlist).map(([key, value]) => {
-                    let i = 0
-                    i++
-                    return <HeaderLink key={i} path={value} str={key}/>
+                    return <HeaderLink key={key} path={value} str={key}/>
                 })}
             </nav>
         </header>

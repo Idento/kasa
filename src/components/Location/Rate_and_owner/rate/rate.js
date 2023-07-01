@@ -4,5 +4,5 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 import './styles/rate.scss'
 
 export default function Rate({rate}) {
-  return <FontAwesomeIcon icon={faStar} className={rate} />
+  return <FontAwesomeIcon icon={faStar} className={rate}/>
   }

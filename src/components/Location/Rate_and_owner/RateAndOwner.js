@@ -17,8 +17,8 @@ export default function RateandOwner({ownername, rate, ownerimg}) {
   return (
     <div className='tagandrate__container'>
         <div className='rate__container'>
-            {ratingStars.length > 0 && ratingStars[0].map((e) => {
-                return <Rate rate={e.toString()} />
+            {ratingStars.length > 0 && ratingStars[0].map((e, i) => {
+                return <Rate rate={e.toString()} key={i}/>
             })}
         </div>
         <div className='owner'>

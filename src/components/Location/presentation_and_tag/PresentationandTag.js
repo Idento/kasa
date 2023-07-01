@@ -12,7 +12,7 @@ export default function PresentationandTag({title, location, tag}) {
         </div>
         <div className='tag__container'>
             {tag.map((e)=> {
-                return <Tag tag={e}/>
+                return <Tag tag={e} key={e}/>
             })}
         </div>
     </div>

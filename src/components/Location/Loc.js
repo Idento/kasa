@@ -33,8 +33,8 @@ export default function Loc() {
           <RateandOwner ownername={data.host.name} rate={data.rating} ownerimg={data.host.picture} />
         </div>
         <div className='container__deployer'>
-          <Deployer title='Description' text={data.description} k='description'/>
-          <Deployer title='Équipements' text={data.equipments.map((e) => <span>{e}<br /></span>)} k='equipement'/>
+          <Deployer title='Description' text={data.description} k='description' key='desc'/>
+          <Deployer title='Équipements' text={data.equipments.map((e,i) => <span key={i}>{e}<br /></span>)} k='equipement' key={data.equipments[0]}/>
         </div>
       </div>
     )

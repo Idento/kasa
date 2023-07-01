@@ -10,7 +10,7 @@ export default function About() {
     <div>
       <Boxtitle />
       {about.map((value, key)=> {
-        return <Deployer title={value.title} text={value.text} k={key}/>
+        return <Deployer title={value.title} text={value.text} k={key} key={key}/>
       })}
     </div>
   )
