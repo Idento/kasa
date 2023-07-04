@@ -16,10 +16,10 @@ export const navlist = {
 
 function Home() {
 	return (
-		<div className='home'>
+		<section className='home'>
 			<Boxtitle text="Chez vous, partout et ailleurs"/>
 			<BoxCard data={logement}/>
-		</div>
+		</section>
 	)
 }
 

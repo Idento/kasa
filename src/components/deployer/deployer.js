@@ -11,7 +11,7 @@ export default function Deployer({title, text, k}) {
     }
 
   return (
-    <div className= {`deployer ${window.location.pathname.split('/')[1].toString()}`} key={k + "deployer"}>
+    <section className= {`deployer ${window.location.pathname.split('/')[1].toString()}`} key={k + "deployer"}>
         <div className={!status ? 'deployer__controller__up rotate' : 'deployer__controller__down rotate'} key={k + "dc"}>
             <h2 key={k + "h2"}>{title}</h2>
             <img src={arrow} className='arrow' alt='arrow controller' onClick={deploy} key={k + "img"}/>
@@ -21,6 +21,6 @@ export default function Deployer({title, text, k}) {
               {text}
             </p>
         </div>
-    </div>
+    </section>
   )
 }

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import './styles/TagandRate.scss'
+import './styles/RateAndOwner.scss'
 import Rate from './rate/rate'
 
 export default function RateandOwner({ownername, rate, ownerimg}) {

@@ -42,13 +42,15 @@
     flex-direction: column;
     margin: auto;
     width: 80%;
-    background-color: antiquewhite;
+    background-color: $secondary-color;
+    box-sizing: border-box;
     margin-top: 30px;
     @media (max-width: $tablet-media){
         width: 90%;
     }
     .deployer__controller {
         background-color: $primary-color;
+        box-sizing: border-box;
         display: flex;
         color: white;
         flex-direction: row;

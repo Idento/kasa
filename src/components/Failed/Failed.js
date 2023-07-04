@@ -4,10 +4,10 @@ import "./styles/failed.scss"
 
 export default function Failed() {
   return (
-    <div className='failed_container'>
+    <section className='failed_container'>
       <h1>404</h1>
       <h3>Oups! La page que vous demandez n'existe pas.</h3>
       <NavLink to="/" className={"back"}>Retourner sur la page d'accueil</NavLink>
-    </div>
+    </section>
   )
 }
