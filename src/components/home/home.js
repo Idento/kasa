@@ -8,8 +8,8 @@ import logement from '../../data/logements.json';
 
 
 export const navlist = {
-	"Accueil" : "/",
-	"A propos" : "About",
+	"Accueil": "/",
+	"A propos": "About",
 }
 
 
@@ -17,8 +17,8 @@ export const navlist = {
 function Home() {
 	return (
 		<section className='home'>
-			<Boxtitle text="Chez vous, partout et ailleurs"/>
-			<BoxCard data={logement}/>
+			<Boxtitle text="Chez vous, partout et ailleurs" />
+			<BoxCard data={logement} />
 		</section>
 	)
 }

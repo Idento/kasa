@@ -14,7 +14,6 @@ const container = document.getElementById('root')
 const root = createRoot(container)
 root.render(
 	<BrowserRouter>
-	<React.StrictMode>
 		<Header navlist={navlist}/>
 		<Routes>
 			<Route path='/' element={<Home />} />
@@ -23,6 +22,5 @@ root.render(
 			<Route path='/*' element={<Failed />}/>
 		</Routes>
 		<Foot />
-	</React.StrictMode>
 </BrowserRouter>
 )
