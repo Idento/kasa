@@ -1,8 +1,7 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { ReactComponent as Star } from '../../../assets/star-solid.svg'
 import './styles/rate.scss'
 
-export default function Rate({rate}) {
-  return <FontAwesomeIcon icon={faStar} className={rate}/>
-  }
+export default function Rate({ rate }) {
+  return <Star className={rate} />
+}
